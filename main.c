@@ -5,8 +5,8 @@
 
 int main()
 {
-        int opcion=0,bandera1=0,bandera2=0,resultado=0,factorialA,factorialB;
-        float numeroA=0.0f, numeroB=0.0f,suma,resta,multiplicacion,division;
+        int opcion=0,bandera1=0,bandera2=0,resultado=0,factorial;
+        float numeroA=0.0f, numeroB=0.0f,suma=0,resta=0,multiplicacion=0,division=0;
         do{
         printf("Ingrese 1 para ingresar 1er operando (A=%f)\n",numeroA);
         printf("Ingrese 2 para ingresar 2do operando (B=%f)\n",numeroB);
@@ -51,11 +51,11 @@ int main()
                 printf("\tNo ingreso los operando\n");
             }
 
-            sumar(numeroA,numeroB);
-            restar(numeroA,numeroB);
-            multiplicar(numeroA,numeroB);
-            dividir(numeroA,numeroB);
-            factorializa(numeroA);
+            suma=sumar(numeroA,numeroB);
+            resta=restar(numeroA,numeroB);
+            multiplicacion= multiplicar(numeroA,numeroB);
+            division =dividir(numeroA,numeroB);
+            factorial=factorializa(numeroA);
             system("cls");
             printf("\Operaciones realizadas, para mostrarlas ingrese -> 4 \n\n");
             break;
@@ -70,17 +70,17 @@ int main()
                 printf(" El primer operador es (A=%f)\n",numeroA);
                 printf(" El segundo operador es(B=%f)\n",numeroB);
                 printf("Calculaste todas las operaciones siguentes:\n\n");
-                printf("\t a) Calcular la suma\n");
+                printf("\t a) Calcular la suma (A+B)\n");
                 printf("\t b) Calcular la resta (A-B)\n");
                 printf("\t c) Calcular la division (A/B)\n");
                 printf("\t d) Calcular la multiplicacion (A*B)\n");
                 printf("\t e) Calcular el factorial (A!)\n\n");
                 printf("\nLos resultados son:\n");
-                printf("\n a)El resultado de A+B es:%f",sumar(numeroA,numeroB));
-                printf("\n b)El resultado de A-B es:%f",restar(numeroA,numeroB));
-                printf("\n c)El resultado de A*B es:%f",multiplicar(numeroA,numeroB));
-                printf("\n d)El resultado de A/B es:%f",dividir(numeroA,numeroB));
-                printf("\n e)El factorial de A es: %f y el factorial de B es:%f \n\n",factorializa(numeroA),factorializa(numeroB));
+                printf("\n a)El resultado de A+B es:%f",suma);
+                printf("\n b)El resultado de A-B es:%f",resta);
+                printf("\n c)El resultado de A*B es:%f",multiplicacion);
+                printf("\n d)El resultado de A/B es:%f",division);
+                printf("\n e)El factorial de A es: %d y el factorial de B es:%d \n\n",factorializa(numeroA),factorializa(numeroB));
                 opcion=5;
 
                 break;
