@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1536119690 source:c:\users\gula\desktop\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"firma.h"
+
+1536119575 c:\users\gula\desktop\tp1\firma.h
+
+1536119575 source:c:\users\gula\desktop\tp1\biblio.c
+	<stdio.h>
+	<stdlib.h>
+	"firma.h"
+
