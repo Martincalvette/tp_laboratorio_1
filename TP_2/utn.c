@@ -1,10 +1,8 @@
-//#include "utn.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
 #include "utn.h"
-
 static int getFloat(float*pBuffer);
 int getString(char* bufferString,int limite);
 static int isFloat(char* pBuffer);

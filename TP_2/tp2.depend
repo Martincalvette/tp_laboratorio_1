@@ -1,0 +1,138 @@
+# depslib dependency file v1.0
+1538512087 source:/home/blackedhs/Programacion/tp_laboratorio_1/tp2/lib.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	"lib.h"
+
+1537651774 /home/blackedhs/Programacion/tp_laboratorio_1/tp2/utn.h
+
+1538338908 /home/blackedhs/Programacion/tp_laboratorio_1/tp2/lib.h
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+
+1538509489 source:/home/blackedhs/Programacion/tp_laboratorio_1/tp2/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	"lib.h"
+
+1537737559 source:/home/blackedhs/Programacion/tp_laboratorio_1/tp2/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+
+1538338989 source:/home/blackedhs/Programacion/tp_laboratorio_1/tp2/MAQUETA.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	"lib.h"
+
+1542156666 source:c:\users\gula\desktop\prog\robo a fede\tp_laboratorio_1-master\tp2\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	"lib.h"
+
+1541726052 c:\users\gula\desktop\prog\robo a fede\tp_laboratorio_1-master\tp2\utn.h
+
+1542156670 c:\users\gula\desktop\prog\robo a fede\tp_laboratorio_1-master\tp2\lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+
+1542159026 source:c:\users\gula\desktop\prog\robo a fede\tp_laboratorio_1-master\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	"abm.h"
+
+1542156666 source:c:\users\gula\desktop\prog\robo a fede\tp_laboratorio_1-master\tp2\maqueta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	"lib.h"
+
+1542156678 source:c:\users\gula\desktop\prog\robo a fede\tp_laboratorio_1-master\tp2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+
+1542158964 source:c:\users\gula\desktop\prog\robo a fede\tp_laboratorio_1-master\tp2\abm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	"abm.h"
+
+1542158899 c:\users\gula\desktop\prog\robo a fede\tp_laboratorio_1-master\tp2\abm.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+
+1542159484 source:c:\users\gula\desktop\prog\tp_2\abm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	"abm.h"
+
+1541726052 c:\users\gula\desktop\prog\tp_2\utn.h
+
+1542159484 c:\users\gula\desktop\prog\tp_2\abm.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+
+1542159636 source:c:\users\gula\desktop\prog\tp_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+	"abm.h"
+
+1542156678 source:c:\users\gula\desktop\prog\tp_2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"utn.h"
+
