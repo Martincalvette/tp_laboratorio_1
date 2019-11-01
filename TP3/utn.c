@@ -1,4 +1,5 @@
-#include <stdio_ext.h>
+//#include <stdio_ext.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
@@ -93,7 +94,7 @@ int getString(char* pBuffer,int limite){
     char bufferString[4096];
     int retorno =-1;
     if (pBuffer != NULL && limite >0){
-        __fpurge(stdin);
+        //__fpurge(stdin);
         fgets(bufferString,sizeof(bufferString),stdin);
         if (bufferString[strlen(bufferString)-1]=='\n'){
             bufferString[strlen(bufferString)-1]='\0';
