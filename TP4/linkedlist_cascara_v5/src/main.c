@@ -29,27 +29,27 @@ void main_menu(int* option);
 int main(void)
 {
     //startTesting(1);  // ll_newLinkedList
-    //startTesting(2);  // ll_len
-    //startTesting(3);  // getNode - test_getNode
-    //startTesting(4);  // addNode - test_addNode
-    //startTesting(5);  // ll_add
-    //startTesting(6);  // ll_get
-    //startTesting(7);  // ll_set
+   // startTesting(2);  // ll_len
+  //  startTesting(3);  // getNode - test_getNode
+  //  startTesting(4);  // addNode - test_addNode
+   // startTesting(5);  // ll_add
+   // startTesting(6);  // ll_get
+  //  startTesting(7);  // ll_set
     //startTesting(8);  // ll_remove
-    //startTesting(9);  // ll_clean
-    //startTesting(10); // ll_deleteLinkedList
-    //startTesting(11); // ll_indexOf
-    //startTesting(12); // ll_isEmpty
-    //startTesting(13); // ll_push
-    //startTesting(14); // ll_pop
-    //startTesting(15); // ll_contains
-    //startTesting(16); // ll_containsAll
-    //startTesting(17); // ll_subList
-    //startTesting(18); // ll_clone
+   // startTesting(9);  // ll_clean
+   // startTesting(10); // ll_deleteLinkedList
+   // startTesting(11); // ll_indexOf
+   // startTesting(12); // ll_isEmpty
+    startTesting(13); // ll_push
+  //  startTesting(14); // ll_pop
+  //  startTesting(15); // ll_contains
+ //   startTesting(16); // ll_containsAll
+ //   startTesting(17); // ll_subList
+  //  startTesting(18); // ll_clone
     //startTesting(19); // ll_sort
 
 
-    int option;
+  /*  int option;
     LinkedList* listaEmpleados;
     LinkedList* listFilter;
     int flagTxt=0;
@@ -180,5 +180,5 @@ void main_menu(int* option){
 9. Guardar los datos de los empleados en el archivo data.bin (modo binario).\n\
 10. Salir\n\
 \n");
-    utn_getEntero(option,3,"Ingrese una de las siguientes opciones: ","Ingrese una opion valida",1,12);
+    utn_getEntero(option,3,"Ingrese una de las siguientes opciones: ","Ingrese una opion valida",1,12);*/
 }

@@ -53,9 +53,12 @@ int ll_len(LinkedList* this)
 static Node* getNode(LinkedList* this, int nodeIndex)
 {
     Node* pNode = NULL;
+
+    /*AUNX NODE 2 PARA GUARDAR EL SIGUIENTE*/
+
     int lenList= ll_len(this);
     int i;
-    if(this!=NULL && nodeIndex>=0 && nodeIndex<=lenList)
+    if(this!=NULL && nodeIndex>=0 && nodeIndex<lenList)
     {
         pNode=this->pFirstNode;
             for(i=0;i<nodeIndex;i++)
